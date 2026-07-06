@@ -1,0 +1,30 @@
+# Core AI SDKs
+anthropic>=0.115.0
+google-adk>=0.1.0
+google-genai>=1.0.0
+mcp>=1.0.0
+
+# Data & HTTP
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# CLI
+click>=8.1.0
+
+# Web Dashboard
+streamlit>=1.38.0
+
+# Utilities
+rich>=13.0.0
+pydantic>=2.0.0
+
+# Testing
+pytest>=8.0.0
+
+# GCP live ingestion (optional — only needed if VECTOR_GCP_MODE=live;
+# see src/ingest/gcp_client.py for the honesty disclaimer on this path)
+google-cloud-securitycenter>=1.0.0
+google-cloud-asset>=3.0.0
+google-cloud-containeranalysis>=2.0.0
+google-cloud-dlp>=3.0.0
+google-cloud-recommender>=2.0.0

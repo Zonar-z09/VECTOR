@@ -1,0 +1,86 @@
+{
+  "description": "Seed list of real high-severity CVEs from NVD for Day 0 enrichment pipeline.",
+  "schema_version": "1.0",
+  "cves": [
+    {
+      "cve_id": "CVE-2024-3094",
+      "description": "XZ Utils backdoor — malicious code injected into liblzma, allowing remote code execution via systemd on affected Linux distributions.",
+      "cvss_score": 10.0,
+      "severity": "CRITICAL",
+      "affected_software": ["xz-utils"],
+      "published": "2024-03-29"
+    },
+    {
+      "cve_id": "CVE-2024-21762",
+      "description": "Fortinet FortiOS SSL VPN out-of-bounds write vulnerability allowing remote unauthenticated code execution.",
+      "cvss_score": 9.6,
+      "severity": "CRITICAL",
+      "affected_software": ["fortios"],
+      "published": "2024-02-09"
+    },
+    {
+      "cve_id": "CVE-2024-6387",
+      "description": "OpenSSH regreSSHion — race condition in signal handler allowing unauthenticated remote code execution as root on glibc-based Linux systems.",
+      "cvss_score": 8.1,
+      "severity": "HIGH",
+      "affected_software": ["openssh"],
+      "published": "2024-07-01"
+    },
+    {
+      "cve_id": "CVE-2023-44487",
+      "description": "HTTP/2 Rapid Reset Attack — allows attackers to cause denial of service by rapidly resetting HTTP/2 streams (CVSS not formally assigned, widely exploited).",
+      "cvss_score": 7.5,
+      "severity": "HIGH",
+      "affected_software": ["nginx", "apache httpd", "node.js"],
+      "published": "2023-10-10"
+    },
+    {
+      "cve_id": "CVE-2024-4577",
+      "description": "PHP CGI argument injection on Windows — allows remote code execution when PHP is running in CGI mode with specific locale settings.",
+      "cvss_score": 9.8,
+      "severity": "CRITICAL",
+      "affected_software": ["php"],
+      "published": "2024-06-09"
+    },
+    {
+      "cve_id": "CVE-2021-44228",
+      "description": "Log4Shell — Apache Log4j2 JNDI injection allowing remote code execution. Affects billions of Java applications.",
+      "cvss_score": 10.0,
+      "severity": "CRITICAL",
+      "affected_software": ["log4j"],
+      "published": "2021-12-10"
+    },
+    {
+      "cve_id": "CVE-2024-27198",
+      "description": "JetBrains TeamCity authentication bypass allowing unauthenticated remote code execution.",
+      "cvss_score": 9.8,
+      "severity": "CRITICAL",
+      "affected_software": ["teamcity"],
+      "published": "2024-03-04"
+    },
+    {
+      "cve_id": "CVE-2024-23897",
+      "description": "Jenkins arbitrary file read via CLI, enabling remote code execution.",
+      "cvss_score": 9.8,
+      "severity": "CRITICAL",
+      "affected_software": ["jenkins"],
+      "published": "2024-01-24"
+    },
+    {
+      "cve_id": "CVE-2024-38063",
+      "description": "Windows TCP/IP IPv6 remote code execution vulnerability — zero-click RCE exploitable over the network.",
+      "cvss_score": 9.8,
+      "severity": "CRITICAL",
+      "affected_software": ["windows"],
+      "published": "2024-08-13"
+    },
+    {
+      "cve_id": "CVE-2024-21893",
+      "description": "Ivanti Connect Secure server-side request forgery (SSRF) allowing unauthenticated access to restricted resources.",
+      "cvss_score": 8.2,
+      "severity": "HIGH",
+      "affected_software": ["ivanti connect secure"],
+      "published": "2024-01-31"
+    }
+  ]
+}
